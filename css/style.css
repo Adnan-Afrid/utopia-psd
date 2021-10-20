@@ -1,0 +1,746 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('Montserrat-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('Montserrat-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 1360px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.social_media_icons{
+    margin-left: auto;
+}
+.social_media_icons a{
+    width: 43px;
+    height: 43px;
+    line-height: 45px;
+    display: inline-block;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-right: 10px;
+}
+/* .navbar-toggler{
+    border: none;
+    height: 27px;
+    z-index: 999;
+    display: block;
+} */
+ /* nav .navbar-collapse{
+    position: absolute;
+    height: 100vh !important;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    display: block !important;
+    right: 0;
+    left: -100%;
+    z-index: 998;
+    transition: all 0.5s;
+} */
+/* .navbar-collapse.show{
+    position: absolute;
+    left: 0;
+    transition: all 1.5s
+}
+header .navbar-toggler span{
+    background-color: black;
+    width: 35px;
+    display: block;
+    height: 3px;
+}
+header .navbar-toggler .top-bar{
+    position: absolute;
+    top: 26px;
+}
+header .navbar-toggler .bottom-bar{
+    position: absolute;
+    top: 40px;
+} */
+
+/* hero section Start CSS */
+.hero_wrapper{
+    background-color: #231f20;
+}
+.hero_image{
+    position: relative;
+}
+.hero_image a{
+    position: absolute;
+    left: 1px;
+    top: 52px;
+    text-decoration: none;
+    color: white;
+    background-color: #ed7a23;
+    padding: 8px 15px 8px;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.hero_wrapper h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.hero_wrapper p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #a7a9ac;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+/* hero section Start CSS */
+
+/* Technology wrapper Start CSS */
+.details_wrapper{
+    margin-top: 50px;
+    margin-bottom: 45px;
+}
+.technology_wrap h2{
+    padding-top: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat';
+}
+.technology_wrap h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.technology_wrap p{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    color: #7b7b7b;
+}
+.technology_wrap img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.special_report{
+    border-left: 3px solid #eeeded;
+    border-right: 3px solid #eeeded;
+    padding: 0px 20px 0px 20px;
+}
+.special_report a{
+    margin-left: 120px;
+}
+.special_report img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.special_report h2{
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat';  
+}
+.special_report h4{
+    padding-top: 8px;
+    font-size: 30px;
+    font-family:'Montserrat';
+}
+.special_report p{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    color: #a5a5a5;
+}
+.special_report_lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+.special_report_lists li{
+    position: relative;
+}
+.special_report_lists p::before{
+    content: "+";
+    position: absolute;
+    color: #ed7a23;
+    font-size: 26px;
+    font-weight: 700;
+    top: 30px;
+    left: -21px;
+}
+.special_report_lists li p{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat';
+    color: black !important;
+}
+.special_report li{
+    list-style-type: none;
+    padding-top: 40px;
+    max-width: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.special_report a{
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ed7a23;
+    background-color: white;
+    color: #ed7a23;
+    padding: 10px 10px 9px 9px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Technology wrapper End CSS */
+
+/* Panasonic wrapper Start CSS */
+.panasonic_lists .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.panasonic_wrapper{
+    background-color: #ebebeb;
+    padding-bottom: 40px;
+    padding-top: 17px;
+}
+.panasonic_wrapper p{
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    margin-bottom: 40px;
+}
+.panasonic_lists{
+    display: flex;
+    flex-wrap: wrap;
+}
+.panasonic_lists li{
+    list-style-type: none;
+    max-width: 20%;
+    padding: 0px 30px;
+}
+/* Panasonic wrapper End CSS */
+
+/* Research Report Section Start CSS */
+.research_report{
+    padding-bottom: 95px;
+}
+.research_report img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.research_report h3{
+    padding-top: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat'; 
+}
+.research_report p{
+    padding-top: 5px;
+    font-size: 14px;
+    padding-bottom: 40px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    color: #7b7b7b;
+}
+.sponsor_image{
+    padding-top: 10px;
+}
+.article_contents{
+    display: flex;
+}
+.sponsor_contents{
+    padding-left: 18px;
+}
+.sponsor_contents a{
+    text-decoration: none;
+    border: 1px solid #ed7a23;
+    color: #ed7a23;
+    padding: 14px 10px 13px 7px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.sponsor_contents h2{
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat';     
+}
+.sponsor_contents p{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: black;
+}
+/* Research Report Section End CSS */
+
+/* Video Section Start CSS */
+.video_section{
+    background-color: #231f20;
+    padding-top: 45px;    
+    padding-bottom: 25px;
+
+}
+.video_section h2{
+    padding-top: 34px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat'; 
+}
+.video_section p{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    color: white;
+    padding-top: 6px;
+}
+.building_science_wrap p{
+    margin-bottom: 100px;
+}
+.video_section a{
+    text-decoration: none;
+    border: 1px solid #ed7a23;
+    color: #ed7a23;
+    padding: 14px 26px 13px 25px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.video_contents{
+    display: flex;
+}
+.design_wrap{
+    padding-left: 15px;
+}
+.video_section .building_science_wrap{
+    position: relative;
+}
+.video_section .live_wrap{
+    position: relative;
+}
+.video_section .design_wrap{
+    position: relative;
+}
+.video_section .disruption_wrap{
+    position: relative;
+}
+.video_section .innovators_wrap{
+    position: relative;
+}
+.building_science_wrap .play_icon img{
+    position: absolute;
+    left: 3%;
+    top: 46%;
+}
+.live_wrap .play_icon img{
+    position: absolute;
+    left: 8px;
+    top: 110px;
+}
+.design_wrap .play_icon img{
+    position: absolute;
+    left: 23px;
+    top: 110px; 
+}
+.disruption_wrap .play_icon img{
+    position: absolute;
+    left: 12px;
+    top: 110px;
+}
+.innovators_wrap .play_icon img{
+    position: absolute;
+    left: 12px;
+    top: 113px;
+}
+/* Video Section End CSS */
+
+/* Virtual Sles Section Start CSS */
+.virtual_sales_section{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.virtual_sales_section h2{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat';
+}
+.virtual_sales_section h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+.virtual_sales_section p{
+    padding-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Montserrat';
+    color: #7b7b7b;
+}
+.news_wrap{
+    margin-bottom: 30px;
+}
+.news_wrap h3{
+    padding-top: 17px;
+    padding-bottom: 30px;
+    font-size: 15px !important;
+}
+.sponsored_wrap h2{
+    padding-top: 20px;
+}
+.sponsored_wrap h3{
+    padding-top: 10px;
+}
+.sponsored_wrap{
+    position: relative;
+}
+.sponsored_wrap .play_icon img{
+    position: absolute;
+    left: 11px;
+    top: 139px;
+}
+.sponsored_wrap p{
+    padding-bottom: 40px;
+}
+.virtaul_sale_image h2{
+    padding-top: 20px;
+}
+.virtaul_sale_image h3{
+    padding-top: 10px; 
+}
+.virtaul_sale_image p{
+    padding-bottom: 20px !important;
+    padding-top: 0px !important; 
+}
+.trending_wrap{
+    display: flex;
+}
+.trending_content{
+    margin: 0px 0px 28px 0px;
+}
+.trending_content p{
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    color: black !important;
+    font-family: 'Montserrat';
+}
+.trending_image{
+    width: 50%;
+}
+.follow_utopia_gallery{
+    display: flex;
+}
+.follow_utopia_logo{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}    
+.poll_wrap h2{
+    padding-top: 30px !important;
+}
+.poll_wrap h3{
+    padding-top: 10px !important;
+}
+.poll_wrap .poll-btn{
+    border: 1px solid gray;
+    background-color: white;
+    color: black;
+    padding: 22px 11px 19px 14px;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    margin-top: 20px !important;
+    margin-bottom: 22px;
+}
+.poll_wrap .poll-btn:hover{
+    border: 1px solid #ed7a23;
+}
+.poll_wrap .submit-btn{
+    background-color: #ed7a23;
+    color: white;
+    padding: 21px 11px 18px 14px;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    border: none;
+}
+.submit_btn_wrap{
+    text-align: center !important;
+}
+.end_note{
+    margin-top: 20px !important;
+}
+.end_note p{
+    font-size: 14px !important;
+    font-weight: normal !important;
+    font-family: 'Montserrat';
+    color: #7b7b7b !important;
+}
+/* Virtual Sles Section Start CSS */
+
+/* Footer Section Start CSS */
+footer{
+    background-color: #231f20;
+    padding: 40px 0px 40px 0px;
+}
+footer h2{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ed7a23;
+    font-family: 'Montserrat';  
+    padding-bottom: 25px;
+}
+footer h3{
+    color: white;
+    font-size: 23px !important;
+}
+footer ul{
+    padding: 0;
+}
+footer ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #666666;
+}
+footer hr{
+    color: #666666;
+    padding-top: 4px;
+}
+footer span{
+    color: #ed7a23;
+    font-size: 26px !important;
+    font-weight: 700;
+}
+footer p{
+    color: #666666;
+    font-size: 17px;
+    font-weight: 700;
+    padding-top: 26px;
+}
+footer li i{
+    color: white
+}
+footer .social_icons_wrap a{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #231f20;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10px;
+}
+/* Footer Section End CSS */
+    
+/* Media Queries */
+
+/*------------- 991px -----------------*/
+@media only screen and (max-width:991px) {
+    .hero_wrapper h1{
+        font-size: 33px;
+    }
+}
+/*------------- 767px -----------------*/
+@media only screen and (max-width:767px) {
+    .hero_wrapper h1{
+        font-size: 30px;
+    } 
+}
+
+/*------------- 640px -----------------*/
+@media only screen and (max-width:640px) {
+    .hero_wrapper h1{
+        font-size: 23px;
+    } 
+}
+
+/*------------- 480px -----------------*/
+@media only screen and (max-width:480px) {
+    .hero_wrapper h1{
+        font-size: 18px;
+    } 
+}
